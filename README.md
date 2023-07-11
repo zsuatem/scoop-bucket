@@ -4,7 +4,7 @@
 
 [![Tests](https://github.com/zsuatem/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/zsuatem/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/zsuatem/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/zsuatem/scoop-bucket/actions/workflows/excavator.yml)
 
- Zsuatem's Buckets for [Scoop](https://scoop.sh), the Windows command-line installer.
+ Zsuatem's Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 How do I install these manifests?
 ---------------------------------
