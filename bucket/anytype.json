@@ -1,12 +1,12 @@
 {
-    "version": "0.32.0",
+    "version": "0.32.3",
     "description": "Anytype is a local-first, P2P and open-source note-taking application",
     "homepage": "https://anytype.io/",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype%20Setup%200.32.0.exe",
-            "hash": "4c4400dba54a6a1fa85643e2c8643a288ee2e236c64fa1df08433602ced2fbcd",
+            "url": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype%20Setup%200.32.3.exe",
+            "hash": "cbaf929c16bc93b41ddb3b6b2f50f1fa240c0a67990ccd9839913cd998cb35fb",
             "pre_install": [
                 "$7zr = Join-Path $env:TMP '7zr.exe'",
                 "Invoke-WebRequest https://www.7-zip.org/a/7zr.exe -OutFile $7zr",
@@ -14,9 +14,7 @@
             ]
         }
     },
-    "bin": [
-        "Anytype.exe"
-    ],
+    "bin": "Anytype.exe",
     "shortcuts": [
         [
             "Anytype.exe",
