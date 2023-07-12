@@ -5,7 +5,7 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype Setup 0.32.0.exe",
+            "url": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype%20Setup%200.32.0.exe",
             "hash": "4c4400dba54a6a1fa85643e2c8643a288ee2e236c64fa1df08433602ced2fbcd",
             "pre_install": [
                 "$7zr = Join-Path $env:TMP '7zr.exe'",
@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype Setup $version.exe"
+                "url": "https://anytype-release.fra1.cdn.digitaloceanspaces.com/Anytype%20Setup%20$version.exe"
             }
         }
     }
